@@ -5,7 +5,11 @@ import Socials from '../../components/Socials'
 
 import { Descricao, BotaoTema, SideBarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  trocaTema: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SideBarContainer>
       <Avatar />
@@ -16,7 +20,7 @@ const Sidebar = () => (
       <Descricao fontSize={12} tipo="principal">
         Desenvolvedor Front-end
       </Descricao>
-      <BotaoTema>Trocar Tema</BotaoTema>
+      <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema>
       <Socials></Socials>
     </SideBarContainer>
   </aside>
