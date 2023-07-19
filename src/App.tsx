@@ -1,6 +1,7 @@
 import Projetos from './components/Projetos'
 import Sidebar from './containers/SideBar'
 import Sobre from './containers/Sobre'
+
 import EstiloGlobal, { Container } from './styles'
 
 function App() {
