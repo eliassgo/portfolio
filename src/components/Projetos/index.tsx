@@ -1,4 +1,11 @@
-import Projeto from '../Projeto'
+import {
+  Projeto,
+  Projeto2,
+  Projeto3,
+  Projeto4,
+  Projeto5,
+  Projeto6
+} from '../Projeto'
 import Title from '../Title'
 
 import { Lista } from './styles'
@@ -11,37 +18,19 @@ const Projetos = () => (
         <Projeto />
       </li>
       <li>
-        <Projeto />
+        <Projeto2 />
       </li>
       <li>
-        <Projeto />
+        <Projeto3 />
       </li>
       <li>
-        <Projeto />
+        <Projeto4 />
       </li>
       <li>
-        <Projeto />
+        <Projeto5 />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <Projeto6 />
       </li>
     </Lista>
   </section>

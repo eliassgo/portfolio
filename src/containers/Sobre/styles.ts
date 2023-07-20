@@ -12,3 +12,5 @@ export const GithubSecao = styled.div`
     }
   }
 `
+
+export const SobreSecao = styled.div``

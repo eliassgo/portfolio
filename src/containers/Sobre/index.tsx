@@ -6,10 +6,24 @@ const Sobre = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
     <Paragrafo tipo="secundario">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ipsum
-      totam, vero maxime corrupti explicabo voluptatum molestiae id modi vitae
-      sunt obcaecati magnam eligendi, quibusdam soluta ratione eius. Nam,
-      distinctio.
+      Bem-vindo ao meu Portfólio. Eu sou Elias, Software Developer em formação,
+      atualmente me dedico aos estudos em um curso de graduação de Engenharia de
+      Software e estou me especializando em Desenvolvimento Full Stack Java em
+      um curso livre.
+    </Paragrafo>
+    <br />
+    <Paragrafo tipo="secundario">
+      No momento, estou focado em desenvolver meu conjunto de habilidades em
+      desenvolvimento front-end. Nesta fase da minha carreira, busco
+      oportunidades, como estágio, vagas de Trainee, voluntariado ou projetos
+      que me possibilitem melhorar as minhas habilidades e me tornar um
+      profissional de alta qualidade.
+    </Paragrafo>
+    <br />
+    <Paragrafo tipo="secundario">
+      A seguir, estão os projetos que realizo nos meus cursos e graduação, os
+      quais me auxiliam a melhorar minhas habilidades na área de
+      desenvolvimento.
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=eliassgo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
