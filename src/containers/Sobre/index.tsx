@@ -13,6 +13,13 @@ const Sobre = () => (
     </Paragrafo>
     <br />
     <Paragrafo tipo="secundario">
+      Habilidade nos conceitos de Front-End, desenvolvimento de sites, CSS3,
+      HTML5, Web Responsividade, JavaScript, Git e GitHub. Conhecimentos em
+      ferramentas como Jquery, Bootstrap, SASS e LESS. Noções em React.Js,
+      Vue.js, TypeScript.
+    </Paragrafo>
+    <br />
+    <Paragrafo tipo="secundario">
       No momento, estou focado em desenvolver meu conjunto de habilidades em
       desenvolvimento front-end. Nesta fase da minha carreira, busco
       oportunidades, como estágio, vagas de Trainee, voluntariado ou projetos
