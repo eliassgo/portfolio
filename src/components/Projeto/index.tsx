@@ -15,7 +15,12 @@ export const Projeto = () => (
       correspondente à faixa de IMC em que o usuário se encontra na tabela
       geral.
     </Paragrafo>
-    <LinkBotao>Visualizar Projeto</LinkBotao>
+    <LinkBotao
+      href="https://calculadora-de-imc-khaki.vercel.app/"
+      target="_blank"
+    >
+      Visualizar Projeto
+    </LinkBotao>
   </Card>
 )
 
