@@ -5,7 +5,7 @@ import { Card, LinkBotao } from './style'
 
 export const Projeto = () => (
   <Card>
-    <Title>Projeto Calculadora de IMC com ReactJs</Title>
+    <Title marginBottom={5}>Projeto Calculadora de IMC com ReactJs</Title>
     <Paragrafo tipo="secundario">
       Com os dados fornecidos pelo usuário, coletamos os valores de altura e
       peso e os enviamos para as respectivas constantes. Em seguida, utilizamos

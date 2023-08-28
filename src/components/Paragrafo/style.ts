@@ -9,4 +9,6 @@ export const P = styled.p<Props>`
       ? props.theme.corPrincipal
       : props.theme.corSecundaria};
   line-weight: 22px;
+  margin-bottom: ${(props) =>
+    props.marginBottom ? props.marginBottom + 'px' : '0'};
 `

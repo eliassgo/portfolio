@@ -16,11 +16,17 @@ import {
 } from '../Projeto'
 import Title from '../Title'
 
-import { Lista } from './styles'
+import { Button, Divisor, Lista, Titulos } from './styles'
 
 const Projetos = () => (
   <section>
-    <Title fontSize={16}>Projetos</Title>
+    <Titulos>
+      <Title fontSize={16} marginBottom={5}>
+        Projetos
+      </Title>
+      <Divisor />
+      <Button to="/">Voltar</Button>
+    </Titulos>
     <Lista>
       <li>
         <Projeto />

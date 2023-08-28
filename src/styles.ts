@@ -5,7 +5,7 @@ const EstiloGlobal = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Fira Code', monospace;
   list-style: none;
 
 }
@@ -25,7 +25,7 @@ body {
 export default EstiloGlobal
 
 export const Container = styled.div`
-  max-width: 1024px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   display: grid;

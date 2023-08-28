@@ -6,21 +6,21 @@ import Socials from '../../components/Socials'
 import { Descricao, BotaoTema, SideBarContainer } from './styles'
 
 type Props = {
-  trocaTema: () => void
+  trocaTema?: () => void
 }
 
 const Sidebar = (props: Props) => (
   <aside>
     <SideBarContainer>
       <Avatar />
-      <Title fontSize={20}>Elias Gomes</Title>
+      <Title fontSize={16}>Elias Gomes</Title>
       <Paragrafo tipo="secundario" fontSize={16}>
         eliassgo
       </Paragrafo>
-      <Descricao fontSize={12} tipo="principal">
+      <Descricao fontSize={14} tipo="principal">
         Desenvolvedor Front-end
       </Descricao>
-      <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema>
+      {/* <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema> */}
       <Socials></Socials>
     </SideBarContainer>
   </aside>

@@ -17,5 +17,9 @@ export const ListaMediaSocials = styled.ul`
     cursor: pointer;
     padding-right: 20px;
     text-decoration: none;
+    a {
+      outline: none;
+      color: #333;
+    }
   }
 `
