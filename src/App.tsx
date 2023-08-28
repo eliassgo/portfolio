@@ -3,9 +3,6 @@ import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Projetos from './components/Projetos'
-import Sidebar from './containers/SideBar'
-import Sobre from './containers/Sobre'
 import EstiloGlobal, { Container } from './styles'
 import temaLight from './themes/light'
 import temaDark from './themes/dark'
@@ -33,7 +30,9 @@ function App() {
   return (
     <ThemeProvider theme={estaUsandoTemaDark ? temaDark : temaLight}>
       <EstiloGlobal />
-      <RouterProvider router={rotas} />
+      <Container>
+        <RouterProvider router={rotas} />
+      </Container>
     </ThemeProvider>
   )
 }

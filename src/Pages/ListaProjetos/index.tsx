@@ -1,11 +1,10 @@
-import { Container } from '../../styles'
-import { ContainerLista, ListaProjetos } from './styles'
+import Sidebar from '../../containers/SideBar'
+import { ListaProjetos } from './styles'
 
 const ListaDeProjetos = () => (
   <>
-    <ContainerLista>
-      <ListaProjetos />
-    </ContainerLista>
+    <Sidebar />
+    <ListaProjetos />
   </>
 )
 
